@@ -1,6 +1,6 @@
+from mongoengine import *
 
+connect('bot_db')
 
-me.connect('bot_db')
-
-class Products(me.Document):
+class Products(Document):
     pass
